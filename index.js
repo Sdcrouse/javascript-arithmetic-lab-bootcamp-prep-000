@@ -10,4 +10,7 @@ function multiply(c,d) {
   return c * d;
 }
 
-function divide(dividend, divisor)
+function divide(dividend, divisor){
+  var quotient = dividend / divisor;
+  return quotient;
+}
