@@ -10,4 +10,4 @@ function multiply(c,d) {
   return c * d;
 }
 
-function divide()
+function divide(dividend, divisor)
