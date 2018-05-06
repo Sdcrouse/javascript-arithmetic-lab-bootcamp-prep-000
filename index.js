@@ -25,3 +25,4 @@ function dec(n){
   n -= 1; // or --n or n--
   return n;
 }
+
