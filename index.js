@@ -15,3 +15,12 @@ function divide(dividend, divisor){
   var quotient = dividend / divisor;
   return quotient;
 }
+
+function inc(n) {
+  return ++n;
+}
+
+function dec(n){
+  n -= 4;
+  return n;
+}
