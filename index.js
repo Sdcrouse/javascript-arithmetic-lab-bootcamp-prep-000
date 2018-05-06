@@ -17,10 +17,11 @@ function divide(dividend, divisor){
 }
 
 function inc(n) {
-  return ++n;
+  n++; //or ++n or n += 1
+  return n; // or I could delete the above statment and return n++
 }
 
 function dec(n){
-  n -= 4;
+  n -= 1; // or --n or n--
   return n;
 }
